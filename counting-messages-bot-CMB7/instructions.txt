@@ -1,0 +1,13 @@
+1) Create a new Discord bot by going to the Discord Developer Portal (https://discord.com/developers/applications) and clicking on "New Application". 
+2) Give your (CMB7) application a name, then go to the "Bot" tab and click on "Add Bot".
+3) Copy the bot token by clicking on the "Copy" button next to it.
+4) Invite your bot to your Discord server by going to the "OAuth2" tab in the Developer Portal, selecting the "bot" scope, and copying the generated URL into your browser. Select the server you want to invite the bot to, then click "Authorize".
+5) Place your token in the code (ending part next to the comment) in the code snippet above with the bot token you copied earlier.
+6) Replace channel id with the ID of the channel you want to count messages in and to what channel you want to send (in the code).
+7) Save the code to a file.
+8) Run the code by executing the command python (file) in your terminal.
+In Discord, type whatever you want on the channel you want, a new message should appear in the channel you put in the code.
+
+Note that you'll need to have the Discord.py library installed in your Python environment for this code to work. You can install it by running the command "pip install discord.py" in your terminal or command prompt.
+
+You can freely use all those files in this repo under coffeware license. Cheers!
